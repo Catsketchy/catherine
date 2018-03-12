@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<!--
+        A profile website for me, Catherine Jones. If there are any issues
+		with this website, you can contact me at catsketch@gmail.com.
+	-->
+		<script src = "http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <meta charset="UTF-8" />
+		
+		<link href="styles.css" rel="stylesheet" type="text/css"/>
+
+		<title>Catherine's Webpage</title>
+		
+		<script>
+			$(document).ready(function(){
+		
+				//$(".desc").hide();
+				
+				function showDesc(question, newQuestion){
+				//fade last form out
+				$(question).slideDown('fast')
+				//fade next form in
+				$(newQuestion).delay(500).slideDown('fast');
+				}
+		
+			
+			});
+		</script>
+	
+	</head>
+	
+	<body>
+		<div id="h">
+			<div id="colorlayer">
+				<nav>
+					<a href="home.html"><h1 style="float: left; width: 150px; height: 100px; padding-left: 50px; margin-top: 0px; margin-bottom: 0px; font-size: 20px;" id="name">Catherine Jones</h1></a>
+					<div class="menu"><a href="About.html"><h2>About Me</h2></a></div>
+					<div class="menu"><a href = "resume.pdf" target="_blank"><h2>My Resume</h2></a></div>
+					<div class="menu"><a href= "Projects.html"><h2>Projects</h2></a></div>
+					<div class="menu"><a href="home.html"><h2>Home</h2></a></div>
+				</nav>
+				<header style= "margin: 0px 0px 0px 50px;">I AM </br>cATsKETCH
+				<p style="font-size: 30px; margin: 0px;">Figuratively the Bomb dot com</br>
+															 (I wish that domain name were open)</p></header>
+			</div>
+		</div>
+		
+		<div style="margin: 0px 50px 0px 50px;">
+		
+			<h3>About Me</h3>
+			<h4>BACKGROUND</h4>
+			
+			<p class="desc"> <img src="Cat.jpg" style="height: 300px; width: 180px; margin:10px 10px 10px 10px; clear: left; float: left;"/>
+			I am a 3rd year student at Meredith College in Raleigh NC, graduating in May 2019. Over the past summer I conducted research 
+			in cyber-security and neural networks, which you can read about <a href="https://dl.acm.org/citation.cfm?id=3140655" 
+			style="text-decoration: none; color: rgb(242,75,114) ;" target="_blank">here</a>. I will also be completing an internship this
+			summer 2018 with UnitedHealth Group's technology offices, Optum. 
+			
+			</br></br>I'm a <strong style="color:rgb(180,230,200);">Computer Science</strong> major	and a double 
+			minor in <strong style="color:  rgb(180,230,200);">Mathematics</strong> and <strong style="color:  rgb(180,230,200);">Graphic Design
+			</strong>, evidence of my both analytically-driven and creative background. I have constantly juggled between these two sides of
+			my personality, and I have finally found the best of both worlds: <strong style="color:  rgb(180,230,200);">UX Design</strong>.</p>
+
+			<h3>Background</h3>
+			<p class="desc">I am ambitious and have history of leadership skills as well as a strong ability to work in a team. I
+			recently have completed summer undergraduate research at the University of North Texas in cyber-security, and I 
+			hope to do more research at my home institution this upcoming year. Last year, I worked in my college's Technology
+			Services department, where I was responsible for helping organize and plan events, garnering interest in students
+			about the services offered, and assessing and solving technology-related issues students and faculty face. In addition
+			to this, I have completed course training in information security for the position. 
+			I am also active in on-campus organizations, and am currently serving as 2019 Class Senator and as President
+			for the Math/CS club, as well as a member of Artist’s Alliance, Black Student Union, and Alpha Lambda Delta Honors Society.
+			Through my Senate position, I have exhibited detail-oriented ability in my deliberate way of reviewing of organizational
+			constitutions. Having served as the Publicity Chair for the Math/CS, I have been able to boost interest in Computer Science
+			by being creative in my methods of outreach, and was voted to be President this past semester. <br/>
+			Along with my involvement in on-campus organizations, I also try to supplement my education by attending conferences and
+			participating in competitions. Towards the end of my freshman and sophomore years, I entered and won a college-wide 
+			Mathematics competition, and was awarded with scholarship.</br>
+			My coursework includes Calculus III, Statistics, Discrete Mathematics, and Linear Algebra. In computer science, I have Java,
+			Python, C++, Matlab, Javascript, and HTML/ CSS experience language-wise. I also will have more experience with data structures
+			and algorithms, graphics, and overall web design by the end of the fall semester due to my current coursework. Through 
+			a program called PAGE SSP, I helped lead a mini-course for academically-gifted young students about coding during the spring
+			of my freshman year. This experience showed me that I have a passion for improving the human side of technology and that 
+			I want to be more involved with creating more accessible visual representations of technology.</br>
+			After earning my Bachelor’s degree in Computer Science, I plan to do graduate research in either Human-Computer Interactions
+			or Artificial Intelligence. I plan to simultaneously work for a gaming or simulations company to not only deepen my knowledge
+			about human-computer interactions but to also build my creative side. Once I graduate, I plan to continue conducting research
+			and will continue to design programs to be used for training, educational, or rehabilitation purposes. For undergraduate research,
+			I am mostly interested in virtual reality, artificial intelligence, and graphics because Virtual Reality and Artificial Intelligence
+			are to me the most viable options for optimizing Human-Computer Interactions. </p>
+			</div>
+			
+			<div style="width: 50%; height: 200px; background-color: rgba(180,230,200,.7); float: left">
+				<h3 style="color: rgb(10,10,30);">Current Projects</h3>
+				<p style="padding: 20px 20px 40px 90px;">asafadfs</p>
+							<div id="button"><p><a href="Projects.html" style="color: black; text-decoration: none;">My Projects</a></p></div>
+
+			</div>
+			<div style="width: 50%; height: 200px; background-color: rgba(100,100,100,.7); float: left;">
+				<h3 style="color: rgb(10,10,30);">Current Projects</h3>
+				<p style="padding: 20px 90px 40px 40px">asafadfs</p>
+			</div>
+
+			<h3>Current Work</h3>
+			<p class="desc">Our research combines the disciplines of cyber-security, machine learning, and cryptography. Working with a
+			graduate student, I am responsible for encrypting plaintext datasets for our deep neural network to be implemented
+			over using a homomorphic encryption library, HElib. Our goal is to see the networks' ability to be implemented over
+			training datasets that it doesn't have direct access to, and to compare the networks' effectiveness to a network trained 
+			with data it has direct access to. We believe that if a network can be trained using encrypted data, we can improve the 
+			level of security and privacy users would have over their own data from machine learning algorithms, such as Google's
+			search engine.
+			</p>
+			
+			<h3>Experience</h3>
+		
+	</body>
+</html>
+	
